@@ -2,6 +2,11 @@ package BasicAlgorithmsAndControlFlow;
 
 public class BinarySearch {
     public static void main(String[] args) {
+        /**
+         * TC : O(logn)
+         * SC : O(1)
+         * Array Must be sorted
+         */
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         int target = 8;
         if(binarySearch(arr,target) != -1)
