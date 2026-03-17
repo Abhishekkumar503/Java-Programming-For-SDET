@@ -16,14 +16,14 @@ public class StackExample {
         System.out.println(stack.size());     // Prints: 2
 
 // Step 2: Add at first (bottom of stack)
-        stack.addFirst(0);  // Stack: [0, 1, 2]
+//        stack.addFirst(0);  // Stack: [0, 1, 2]
 
 // Print and size
         stack.forEach(System.out::println);  // Prints: 2, 1, 0
         System.out.println(stack.size());     // Prints: 3
 
 // Step 3: Add at last (top of stack)
-        stack.addLast(3);   // Stack: [0, 1, 2, 3]
+//        stack.addLast(3);   // Stack: [0, 1, 2, 3]
 
 // Print and size
         stack.forEach(System.out::println);  // Prints: 3, 2, 1, 0
